@@ -1,0 +1,51 @@
+# --- Build outputs -----------------------------------------------------------------------
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+captures/
+.cxx/
+release/
+
+# --- Gradle --------------------------------------------------------------------------------
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# --- Local machine config (never share -- SDK path is per-machine) -------------------------
+local.properties
+
+# --- Android Studio / IntelliJ ---------------------------------------------------------------
+*.iml
+.idea/*
+!.idea/codeStyles/
+!.idea/runConfigurations/
+.navigation/
+.externalNativeBuild/
+
+# --- Keystores and signing (uncomment if you don't want to commit these at all) -------------
+#*.jks
+#*.keystore
+
+# --- Google services config (contains project-specific keys; keep out unless intentional) ---
+#google-services.json
+
+# --- Logs and misc ---------------------------------------------------------------------------
+*.log
+*.hprof
+.DS_Store
+Thumbs.db
+
+# --- Fastlane (if you add it later) -----------------------------------------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
